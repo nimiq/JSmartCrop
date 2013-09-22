@@ -1,0 +1,62 @@
+Doc Java: http://docs.oracle.com/javase/7/docs/api/
+Doc statistiche con Java: http://commons.apache.org/math/
+Grafici con Java: http://www.jfree.org/jfreechart/samples.html
+Salvare jpeg con fattore di compressione: http://www.universalwebservices.net/web-programming-resources/java/adjust-jpeg-image-compression-quality-when-saving-images-in-java
+
+-------------------
+IMAGE PROCESSING AND STAT
+Domande:
+http://stats.stackexchange.com/questions/47574/auto-crop-black-borders-from-a-scanned-image-by-making-stats-about-gray-values
+http://stackoverflow.com/questions/14296051/auto-crop-black-borders-from-a-scanned-image-by-making-stats-about-gray-values
+
+Alcune algoritmi interessanti:
+http://en.wikipedia.org/wiki/Flood_fill
+http://en.wikipedia.org/wiki/Connected-component_labeling
+http://en.wikipedia.org/wiki/Edge_detection
+http://en.wikipedia.org/wiki/Segmentation_%28image_processing%29
+
+---------------------
+RISPOSTA INTERESSANTE
+
+http://stackoverflow.com/questions/14296051/auto-crop-black-borders-from-a-scanned-image-by-making-stats-about-gray-values?answertab=votes#tab-top
+
+Morphological closing:
+http://docs.scipy.org/doc/scipy/reference/tutorial/ndimage.html#grey-scale-morphology
+http://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.morphology.grey_closing.html#scipy.ndimage.morphology.grey_closing
+http://en.wikipedia.org/wiki/Mathematical_morphology
+
+OTSU Thresholding:
+(http://opencv.willowgarage.com/documentation/python/imgproc_miscellaneous_image_transformations.html?highlight=threshold#threshold)
+http://docs.opencv.org/modules/imgproc/doc/miscellaneous_transformations.html#threshold
+http://en.wikipedia.org/wiki/Otsu%27s_method
+
+Deskew:
+http://anydoby.com/jblog/en/java/1990
+
+---------------------
+ANALISI STATISTICA
+
+http://en.wikipedia.org/wiki/Normalization_%28statistics%29
+
+
+
+
+-------
+LIBRERUIE USATE
+
+1. jfreechart e jcommon per i grafici (faccio un avers light senza grafici)
+http://www.jfree.org/jfreechart/
+
+2. commons-math per le statistiche (posso eliminarlo e calc media e var a mano)
+http://commons.apache.org/math/
+
+3. ij (imageJ) per analisi dell'immagine (posso tentare di rimuovere la parte gui)
+http://rsbweb.nih.gov/ij/
+
+4. Fast_Morphology (posso evitare che estenda plugin)
+http://imagejdocu.tudor.lu/doku.php?id=plugin:morphology:fast_morphological_filters:start
+che e' parte di ijtools:
+http://sourceforge.net/projects/ijtools/
+
+5. ijblob per labeling
+http://code.google.com/p/ijblob/
