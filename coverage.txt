@@ -1,0 +1,20 @@
+[CodePro v6.1 report, generated Sun Jan 27 17:59:57 CET 2013]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/16)!	0%   (0/6)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	1
+total classes:	1
+total methods:	2
+total executable files:	1
+total executable lines:	6
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/16)!	0%   (0/6)!	com.mydomain.smartcrop
+-------------------------------------------------------------------------------
